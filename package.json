@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "file.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node file.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Goorob/server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Goorob/server/issues"
+  },
+  "homepage": "https://github.com/Goorob/server#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
