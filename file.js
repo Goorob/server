@@ -1,11 +1,11 @@
 'use strict'
 const express = require ('express');
 const server = express ();
-const Port = process.env.Port || 3000 ;
+const PORT = process.env.PORT || 3000 ;
 
 // server.use(express.static('./public'));
 
-server.use(express.static('./public '));
+server.use(express.static('./test'));
 
 server.get('/test' , (request, response)=> {
     response.send('your test worked');
@@ -22,5 +22,5 @@ response.json(friend);
 });
 
 
-server.listen(Port , () => console.log('working' , 3000));
+server.listen(PORT , () => console.log('working' , PORT));
 
